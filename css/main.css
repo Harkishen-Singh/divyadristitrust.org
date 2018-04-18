@@ -123,7 +123,7 @@ ul li {
 	list-style: none;
 }
 .section {
-	padding: 30px 0;
+	padding: px 0;
 }
 .no-padding {
 	padding: 0;
@@ -159,14 +159,15 @@ ul li {
 	float: left;
 	font-size: 28px;
 	font-weight: bolder;
-	color: #8bc34a;
+	color: #000;
 	text-decoration:none;
 	text-transform:uppercase;
 	letter-spacing: 3px;
-	margin-top: -10px;
+	margin-top: 0px;
 }
 #header.fixed {
-	background-color: #fff;
+	background-color: #8bc34a;
+    color: #000;
 }
 #header.fixed a {
 	/* color: #000; */
@@ -194,7 +195,7 @@ ul li {
 	display: inline-block;
 }
 .navigation a {
-	color: #8bc34a;
+	color: #000;
 	font-size: 14px;
 	font-weight: 700;
 	margin-left: 40px;
@@ -207,7 +208,7 @@ ul li {
 }
 .nav-toggle {
 	display: none;
-	height: 44px;
+	height: 25px;  /* for the mobile view */
 	overflow: hidden;
 	position: fixed;
 	right: 5%;
@@ -281,7 +282,7 @@ ul li {
 	transform: translateX(-50%) translateY(-50%);
 }
 .nav-toggle span:before, .nav-toggle span:after {
-	background-color: #fff;
+	background-color: #8bc34a;
 	content: "";
 	height: 100%;
 	position: absolute;
@@ -390,7 +391,7 @@ ul li {
 }
 .btn4{
 	
-margin-top: 12%;
+margin-top: 3%;
 	
 border-color: #000;
 	
@@ -399,7 +400,7 @@ color: #000;
 .intro h3 {
 	color: #010207;
 	margin-top: 0;
-	padding-bottom: 5px;
+	padding-bottom: 0px;
 	text-transform: capitalize;
 }
 .intro p {
@@ -570,7 +571,7 @@ h2:before {
 }
 .video-section{padding: 88px 0 20px;}
 address {
-    line-height: 1.42857143;
+    line-height: 5%;
     color: #969696 !important;
     line-height: 24px;
 }
